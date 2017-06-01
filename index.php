@@ -3,8 +3,8 @@ include("config.php");
 
 require_once __DIR__ . '/vendor/autoload.php';
 ########## Google Settings.Client ID, Client Secret from https://console.developers.google.com #############
-$client_id = '997450712977-4f1bcndrvpf7b7om996neqvr47m0h5h6.apps.googleusercontent.com'; 
-$client_secret = 'SNQ7H3EHUCWpRomVMjy5Nz3R';
+$client_id = 'client id'; 
+$client_secret = 'secret key';
 $redirect_uri = 'http://localhost/testliabrary/sociallogin/google/index.php';
 
 $client = new Google_Client();
